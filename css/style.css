@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.7vw;
+}
+.boxcenter {
+  width: 70%;
+  margin: 0 auto;
+}
+.row {
+  float: left;
+  width: 100%;
+}
+.mb {
+  margin-bottom: 30px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mr {
+  margin-right: 2%;
+}
+.demo {
+  background-color: antiquewhite;
+  min-height: 100px;
+}
+.header {
+  background-color: rgb(110, 121, 118);
+  border: 1px cadetblue;
+
+  color: blue;
+  border-radius: 5px;
+}
+.footer {
+  background-color: aquamarine;
+  border: 1px black;
+  font-size: 0.8vw;
+  color: blue;
+  border-radius: 5px;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.header h1 {
+  margin: 20px;
+  font-size: 1.2vw;
+}
+.menu {
+  background-color: black;
+
+  color: white;
+  border-radius: 5px;
+}
+.boxphai {
+  float: left;
+  width: 24%;
+}
+.boxtrai {
+  float: left;
+  width: 74%;
+}
+.boxtitle {
+  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+.boxcontent {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 200px;
+  padding: 20px;
+}
+.boxcontent2 {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+
+  background-color: #eee;
+}
+.boxfooter {
+  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+}
+.banner {
+  min-height: 300px;
+  width: 100%;
+  text-align: center;
+}
+.banner img {
+  height: 300px;
+}
+.boxsp {
+  float: left;
+  width: 32%;
+  min-height: 300px;
+  border: 1px #eee solid;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.boxsp.img {
+  min-height: 250px;
+  text-align: center;
+}
+.img img {
+  height: 230px;
+}
+.menu ul {
+  padding: 0px 15px;
+}
+.menu ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 15px;
+}
+.menu ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.menu ul li a:hover {
+  color: white;
+  font-size: 0.8vw;
+}
+.formtaikhoan {
+  line-height: 150%;
+  height: 250px;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.formcontent[type="text"] {
+  width: 100%;
+  border: 1px #ccc solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"] {
+  border-radius: 5px;
+}
+.formtaikhoan input[type="submit"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px #ccc solid;
+}
+.formtaikhoan input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover {
+  background-color: #ccc;
+}
+.formtaikhoan li a {
+  text-decoration: none;
+  color: teal;
+}
+.formtaikhoan li a:hover {
+  color: #560;
+  text-decoration: underline;
+}
+.menudoc ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.menudoc ul li {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a {
+  color: #666;
+  text-decoration: none;
+}
+.menudoc ul li:hover {
+  background-color: #ccc;
+}
+.searbox input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+}
+.top10 img {
+  width: 20%;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+}
+.top10 a {
+  text-decoration: none;
+  color: #666;
+}
+.top10 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+/* admin */
+.headeradmin {
+  background-color: #eee;
+  border: 1px #ccc solid;
+  color: #666;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.headeradmin h1 {
+  font-size: 2vw;
+}
+.frmtitle {
+  background-color: #eee;
+  border: 1px #ccc solid;
+  color: #666;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+.frmcontent {
+  padding: 20px 0px;
+}
+.frmdsloai table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px #999 solid;
+}
+.frmdsloai table th:nth-child(1) {
+  width: 10%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.frmdsloai table th:nth-child(2) {
+  width: 30%;
+  background-color: #ccc;
+}
+.frmdsloai table th:nth-child(3) {
+  width: 40%;
+  background-color: #ccc;
+}
+.frmdsloai table th:nth-child(4) {
+  width: 20%;
+  background-color: #ccc;
+}
+.frmdsloai table td {
+  padding: 10px 20px;
+  border: 1px #ccc solid;
+}
